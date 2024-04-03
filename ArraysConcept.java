@@ -8,7 +8,7 @@ public class ArraysConcept {
         //we can add the [] before or after a
         //both side we have define the type of variable we want to store
         //new is used as keyword to initiate new memory allocation
-        a[0] =10;
+        a[0] = 10;
         a[1] = 20;
         a[2] = 30;
         a[3] = 40;
@@ -49,9 +49,18 @@ public class ArraysConcept {
 
         for(int k = 0; k<emp.length; k++){
             System.out.println(emp[k]);
-            if(emp[k].equals("Nanda"));{
+            if(emp[k].equals("Nanda"));
+            {
                 System.out.println("Nanda Salary is:" +1000);
                 break;
+            }
+        }
+
+        String browsers[] = {"chrome", "firefox", "IE", "safari"};
+        for(int k=0; k<4; k++){
+            System.out.println(browsers[k]);
+            if(browsers[k].equals("IE")){
+                System.out.println("This browser is deprecated!");
             }
         }
 
