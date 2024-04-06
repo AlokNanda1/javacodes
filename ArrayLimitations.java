@@ -6,6 +6,7 @@ public class ArrayLimitations {
         int product[] = new int[50];
 
         //object is the class in java
+        //object array we can store any type of data
         Object emp[] = new Object[5];
         emp[0] = "Tom";
         emp[1] = 30;
